@@ -40,8 +40,8 @@ async def get_http_client():
                     limits=httpx.Limits(max_connections=20, max_keepalive_connections=10),
                     http2=False,
                     headers={
-                        "Api-User-Agent": "WikiRunAI/1.0 (https://github.com/ChristopherJoshy/WikiRunAi; educational project)",
-                        "User-Agent": "WikiRunAI/1.0 (https://github.com/ChristopherJoshy/WikiRunAi; educational project)",
+                        "Api-User-Agent": "WikiRun/1.0 (https://github.com/ChristopherJoshy/WikiRun; educational project)",
+                        "User-Agent": "WikiRun/1.0 (https://github.com/ChristopherJoshy/WikiRun; educational project)",
                         "Accept": "application/json",
                     },
                     follow_redirects=True

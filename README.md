@@ -48,7 +48,7 @@ flowchart LR
 ## 🚀 Run locally
 
 ```bash
-git clone https://github.com/ChristopherJoshy/wikirun.git
+git clone https://github.com/ChristopherJoshy/WikiRun.git
 cd wikirun/backend
 python -m venv .venv
 # Windows: .venv\Scripts\Activate.ps1
